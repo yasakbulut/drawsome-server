@@ -22,6 +22,7 @@ node_modules
 .npm
 
 .DS_Store
-serviceAccountCredentials.json
 
 .env
+
+games
