@@ -14,5 +14,5 @@
 
 ```
 2. ```docker build -t yasa/drawsome-server .```
-3. ```docker run -p 3000:3000 -v /some/absolute/dir:/usr/src/app/games -d yasa/drawsome-server```
+3. ```docker run -p 3000:3000 -v /some/absolute/dir/games:/usr/src/app/games -d yasa/drawsome-server```
 4. Make `GET` requests to `/games` and `/games/:id`
